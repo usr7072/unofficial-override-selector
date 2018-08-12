@@ -1,0 +1,64 @@
+﻿{
+  "PXV": {
+    "illust": {
+      "imgOvr": {"s": ".works_display, figure > div[role=\"presentation\"]"},
+      "med": {
+        "img": {"s": ".works_display > ._layout-thumbnail > img, figure > div[role=\"presentation\"] a[href^=\"https://i.pximg.net/\"] > img"},
+        "bigImg": {"s": ".original-image, figure > div[role=\"presentation\"] a[href^=\"https://i.pximg.net/\"]"}
+      },
+      "mng": {
+        "img": {"s": ".works_display > ._work > ._layout-thumbnail > img, figure > div[role=\"presentation\"] a[href^=\"/member_illust.php?mode=manga\"] > img"},
+        "largeLink": {"s": ".works_display > a, figure > div[role=\"presentation\"] a[href^=\"/member_illust.php?mode=manga\"]"},
+        "pages": {"s": "figure > div[role=\"presentation\"] > div:nth-child(1) > div"}
+      },
+      "ugo": {
+        "img": {"s": ".works_display > ._ugoku-illust-player-container canvas"},
+        "pause": {"s": "figure > div[role=\"presentation\"] button"}
+      }
+    },
+    "mngIdx": {
+      "errorMessage": {"s": [".errorArea" ,".errortxt"]},
+
+      "scripts": {"ALL": "script"},
+      "images": {"ALL": ".manga > .item-container > img"},
+      "largeLinks": {"ALL": ".manga > .item-container > a"}
+    },
+    "info": {
+      "illust": {
+        "datetime": {"s": "figcaption div[title=\"投稿日時\"]"},
+        "size": {"s": ".work-info .meta > li+li"},
+        "tools": {"s": ".work-info .tools"},
+        "seriesTitle": { "s": "article figure figcaption >div > div > a[href*=\"/series/\"]" },
+        "title": {"s": "figcaption h1"},
+        "R18": {"s": ".work-info .r-18, .work-info .r-18g, figure  footer li > a[href*=\"R-18\"]"},
+        "caption": {"s": ".work-info .caption, figure figcaption > h1+div p"},
+        "nice": {"s": ".work-info .js-nice-button, figure > div[role=\"presentation\"]+div section > div:nth-child(4) > button"},
+        "update": {"s": ".bookmark_modal_thumbnail"},
+
+        "tags": {"ALL": "figcaption footer > ul > li > span > a"}
+      },
+      "member": {
+        "memberLink": {
+          "s": ".profile .user-name, article+aside > section > div > div > a[href^=\"/member.php?id=\"]"
+        },
+        "feedLink": {
+          "s": ".column-header .tabs a[href^=\"/stacc/\"]"
+        }
+      }
+    },
+    "misc": {
+      "content": {"s": "article figure"},
+      "openCantion": {"s": ".ui-expander-container > .ui-expander-target > .expand, figure figcaption h1+div p+div > button"},
+      "downloadedDisplayParent": {"s": ".score, figure+div > ul+div"},
+      "recommendList": {"s": "#illust-recommend ._image-items"},
+      "feedList": {"s": ["#stacc_timeline", "#stacc_center_timeline"]},
+      "rankingList": {"s": ".ranking-items"},
+      "discovery": {"s": "#js-mount-point-discovery"},
+      "allContents": {"s": "nav div[role=\"rowgroup\"]"},
+      "recommendContents": {"s": "header+div > div > aside:last-child"},
+      "downloadedFilenameArea": {"s": ".ank-pixiv-downloaded-filename-text"},
+      "nextLink": {"s": ".before > a, aside nav > a[href^=\"/member_illust.php?\"]:nth-child(1)"},
+      "prevLink": {"s": ".after > a, aside nav > a[href^=\"/member_illust.php?\"]:nth-child(3)"}
+    }
+  }
+}
