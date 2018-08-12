@@ -1,8 +1,8 @@
 # unofficial-override-selector
-弄れない人向け
+override_selector.json弄れない人向け
+とりあえずアップロード先に困ったのでこちらで公開します。
 
-
-#基本的に最新のセレクターはAnk-Pixiv-Toolのものを使用して下さい。
+# 基本的に最新のセレクターはAnk-Pixiv-Toolのものを使用して下さい。
 https://github.com/anekos/Ank-Pixiv-Tool/
 
 2018/08/12更新分　-　kayamaiさんによる修正版
