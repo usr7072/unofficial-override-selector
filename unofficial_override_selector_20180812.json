@@ -25,7 +25,7 @@
     },
     "info": {
       "illust": {
-        "datetime": {"s": "figcaption div[title=\"投稿日時\"]"},
+        "datetime": {"s": "figcaption div[class=\"css-d16zpw ecgznb0\"]"},
         "size": {"s": ".work-info .meta > li+li"},
         "tools": {"s": ".work-info .tools"},
         "seriesTitle": { "s": "article figure figcaption >div > div > a[href*=\"/series/\"]" },
