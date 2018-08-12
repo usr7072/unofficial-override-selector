@@ -25,17 +25,17 @@
     },
     "info": {
       "illust": {
-        "datetime": {"s": "figcaption div[class=\"css-d16zpw ecgznb0\"]"},
+        "datetime": {"s": ".work-info .meta > li, figcaption div[class=\"css-d16zpw ecgznb0\"]"},
         "size": {"s": ".work-info .meta > li+li"},
         "tools": {"s": ".work-info .tools"},
         "seriesTitle": { "s": "article figure figcaption >div > div > a[href*=\"/series/\"]" },
-        "title": {"s": "figcaption h1"},
+        "title": {"s": ".work-info .title, figcaption h1"},
         "R18": {"s": ".work-info .r-18, .work-info .r-18g, figure  footer li > a[href*=\"R-18\"]"},
-        "caption": {"s": ".work-info .caption, figure figcaption > h1+div p"},
+        "caption": {"s": ".work-info .caption, figure figcaption p"},
         "nice": {"s": ".work-info .js-nice-button, figure > div[role=\"presentation\"]+div section > div:nth-child(4) > button"},
         "update": {"s": ".bookmark_modal_thumbnail"},
 
-        "tags": {"ALL": "figcaption footer > ul > li > span > a"}
+        "tags": {"ALL": ".work-tags .tags > .tag > .text, figcaption > Div > Div > footer > ul > li > span > a"}
       },
       "member": {
         "memberLink": {
@@ -49,7 +49,7 @@
     "misc": {
       "content": {"s": "article figure"},
       "openCantion": {"s": ".ui-expander-container > .ui-expander-target > .expand, figure figcaption h1+div p+div > button"},
-      "downloadedDisplayParent": {"s": ".score, figure+div > ul+div"},
+      "downloadedDisplayParent": {"s": ".score, figcaption > div > div > ul+div"},
       "recommendList": {"s": "#illust-recommend ._image-items"},
       "feedList": {"s": ["#stacc_timeline", "#stacc_center_timeline"]},
       "rankingList": {"s": ".ranking-items"},
