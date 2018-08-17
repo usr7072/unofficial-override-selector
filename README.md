@@ -1,6 +1,7 @@
 # unofficial-override-selector
-override_selector.json弄れない人向け  
-とりあえずアップロード先に困ったのでこちらで公開します。  
+override_selector.json弄れない(よくわからない)人向け  
+とりあえずアップロード先に困ったのでこちらで公開します。
+
 
 # 基本的に最新のセレクターはAnk-Pixiv-Toolのものを使用して下さい。
 https://github.com/anekos/Ank-Pixiv-Tool/  
@@ -33,6 +34,15 @@ If your version of AnkPixiv Tool is the target version or earlier, importing is 
   
 It's just a renewal date.
 The newer this is, the more recent it is.
+
+# セレクター情報適用方法(How to apply selector.)
+1. 「アドオンマネージャー」よりAnkPixivの設定画面を開きます。  
+2. 「セレクタ上書き設定のインポート／消去」の項目にあるインポートボタンをクリックします。  
+3. ダウンロードしたJsonファイルを選択し、インポートします。  
+--------------------------------------------------------------------------  
+1. Open the AnkPixiv setting screen from "Add-on Manager".  
+2. Click the Import button in the "Import override selector" field.  
+3. Select the downloaded Json file and import it.  
 
 # 更新履歴
 2018/08/12 最終更新  
